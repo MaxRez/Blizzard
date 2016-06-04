@@ -1,0 +1,199 @@
+/********************Reset CSS*********************/
+*, ul, a {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-position: inside;
+	font-family: Verdana, Tahoma, Arial sans-serif;
+	text-decoration: none;
+}
+.X {
+	clear: both;
+}
+body {
+	 background-color: #0566B0;
+}
+#main_page {
+	 margin: auto;
+	 height: 100%;
+	 width: 900px;
+	 background-color: #FFFFFF;
+ }
+	#logo {
+		height: 125px;
+		width: 900px;
+		background-color: #010100;
+	}
+		#logo > img {
+			margin: 0 345px;
+			height: 125px;
+		}
+header {
+	 position: fixed;
+}
+main {
+	padding: 185px 5px 5px 5px;
+}
+	main > img {
+		float: left;
+		width: 23%;
+		margin: 5px 5px 5px 0;
+	}
+	main p {
+		text-indent: 20px;
+		text-align: justify;
+	}
+#video {
+	margin: auto;
+	width: 640px;
+}
+#adress {
+	margin: auto;
+	height: 100px;
+	width: 250px;
+	text-align: center;
+}
+#map {
+	margin: auto;
+	height: 450px;
+	width: 600px;
+}
+footer {
+	 height: 50px;
+	 width: 900px;
+	 background-color: #010100;
+}
+h3 {
+	  text-align: center;
+	  color: #0566B0;
+}
+/*****************Form and elements style*************/
+form {
+	margin: auto;
+	padding: 0 50px;
+	height: 460px;
+	width: 640px;
+}
+input {
+	display: block;
+	margin-bottom: 5px;
+	height: 23px;
+	width: 250px;
+	font-size: 11pt;
+}
+input[type="checkbox"] {
+	display: block;
+	float: left;
+	margin-left: 228px;
+	height: 22px;
+	width: 25px;
+}
+.button {
+	position: relative;
+	left: 230px;
+	float: left;
+	margin-left: 5px;
+	height: 25px;
+	width: 126px;
+}
+select {
+	display: block;
+	margin-bottom: 5px;
+	height: 25px;
+	width: 252px;
+}
+textarea {
+	 display: block;
+	 margin-bottom: 5px;
+	 height: 150px;
+	 width: 252px;
+	 font-size: 11pt;
+ }
+label {
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+	padding-right: 5px;
+	height: 25px;
+	width: 230px;
+	text-align: right;
+	font-size: 11pt;
+}
+/**************Game table style*******************/
+table {
+	width: 890px;
+	border-collapse: collapse;
+}
+tr, th, td {
+	padding: 5px 3px;
+	font-size: 10pt;
+	border: 1px solid #AAAAAA;
+}
+table td:first-child {
+	width: 250px;
+	font-style: italic;
+	color: #0566B0;
+}
+/*Footer mobile menu*/
+#mobile {
+	padding: 8px 240px;
+	height: 25px;
+	width: 500px;
+	font-size: 8pt;
+	color: #FFFFFF;
+}
+	#mobile > ul > li{
+		float: left;
+		line-height: 35px;
+		cursor: pointer;
+	}
+		#mobile > ul > li > a {
+			padding: 3px;
+			height: 10px;
+			border-left: 1px solid #FFFFFF;
+		}
+			#mobile > ul > li:first-child a{
+				border-left: none;
+			}
+/**********************Menu***********************/
+nav {
+
+	margin: 5px 150px;
+	height: 50px;
+	width: 600px;
+	background-color: #0566B0;
+}
+	nav > ul {
+		position: relative;
+		top: 2px;
+		left: 40px;
+		padding-top: 5px;
+		height: 30px;
+		width: 550px;
+		font-weight: bold;
+		font-size: 11pt;
+	}
+		nav > ul > li {
+			float: left;
+			margin: 0 10px;
+			height: 37px;
+			line-height: 35px;
+			text-align: center;
+		}
+			nav > ul > li > a{
+				display: block;
+				padding: 0 5px;
+				height: 37px;
+				color: #FFFFFF;
+			}
+nav > ul > li > a:hover {
+	border-radius: 8px;
+	background-color: white;
+	color: #0566B0;
+}
+nav > ul > li > a:active, .default {
+	border-radius: 8px;
+	background-color: white;
+	color: #0566B0;
+}
+

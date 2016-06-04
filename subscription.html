@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name = "description" content = "WarCraft, Blizzard, игры, фильмы">
+		<link href="CSS/style.css" type="text/css" rel="stylesheet">
+		<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Blizzard_Entertainment_Logo.svg/1280px-Blizzard_Entertainment_Logo.svg.png">
+		<title>Welcome to Blizzard</title>
+	</head>
+		<body>
+			<div id = "main_page">
+				<header>
+					<div id = "logo">
+						<img src = "image/logo.jpg" alt = "Company logo">
+					</div>
+					<!--Main menu-->
+					<nav>
+						<ul>
+							<li><a href = "index.html">О компании</a></li>
+							<li><a href = "game.html">Игры</a></li>
+							<li><a href = "films.html">Фильмы</a></li>
+							<li><a class = "default" href = "subscription.html">Подписки</a></li>
+							<li><a href = "contact.html">Контакты</a></li>
+						</ul>
+					</nav>
+				</header>
+				<main>
+					<h3>Укажите Ваши данные:</h3>
+					<!--Subscription form-->
+					<form name = "subscription" autocomplete = "on" target = "_blank">
+						<label for = "first_name">Имя:</label>
+						<input type = "text" id = "first_name" name = "first_name" placeholder = "Ваше имя" required>
+						<label for = "last_name">Фамилия:</label>
+						<input type = "text" id = "last_name" name = "last_name" placeholder = "Ваша фамилия" required>
+						<label for = "mail">E-mail:</label>
+						<input type ="email" id = "mail" name = "mail" placeholder = "E-mail" required>
+						<label >Страна:</label>
+						<select>
+							<option>Украина</option>
+							<option>Великобритания</option>
+							<option>США</option>
+							<option>Польша</option>
+							<option>Китай</option>
+						</select>
+						<label for = "more_information">Дополительная информация:</label>
+						<textarea id = "more_information" name = "more_information" placeholder = "Введите текст..." cols = "500" rows = "20"></textarea>
+						<input  type = "checkbox" id = "agreement" required>
+						<label for = "agreement">Я ознакомлен с условиями</label>
+						<div class = "X"></div>
+						<input class = "button" type = "submit" name = "button_ok" value = "Отправить">
+						<input class = "button" type = "reset" name = "button_cancel" value = "Отмена">
+					</form>
+				</main>
+				<footer>
+					<!--Footer moblile menu-->
+					<div id = "mobile">
+						<ul>
+							<li><a>Мобильная версия</a></li>
+							<li><a>Приложение для IPhone</a></li>
+							<li><a>Приложение для Android</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+		</body>
+	</html>
